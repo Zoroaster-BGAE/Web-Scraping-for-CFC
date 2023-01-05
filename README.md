@@ -1,6 +1,6 @@
-# Web-Scrapping-for-CFC
+# Web-Scraping-for-CFC
 
-In this repository we create a web scrapping code that finds all external resources of the cfc official webpage. Then we will create a word counter for the privacy policy section. Both outputs will be writen in relative JSON files.
+In this repository we create a web scraping code that finds all external resources of the cfc official webpage. Then we will create a word counter for the privacy policy section. Both outputs will be writen in relative JSON files.
 
 
 This code first retrieves the index webpage and then uses BeautifulSoup to parse the HTML. It then looks for all tags that have a src or href attribute, and adds any external URLs to a set. It then writes this set to a JSON file.
